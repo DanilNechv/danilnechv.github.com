@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5{
+	margin: 0;
+}
+
+.page{
+	background-image: url(../images/new-year-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 0 50px;
+	padding-bottom: 55px;
+	min-height: 1000px;
+	position: relative;
+}
+.list-pages, .about-me{
+	margin-left: 50%;
+}
+.title, .list-pages a, .about-me p, .back{
+	font-family: Lobster;
+	color: #ffffff;
+}
+.title{
+	font-size: 60px;
+    letter-spacing: 4px;
+    padding-top: 55px;
+}
+.title__big-letter{
+	font-size: 90px;
+}
+.about-me p{
+	font-size: 25px;
+	margin-top: 10px
+}
+.list-pages ul{
+	margin-top: 10px;
+}
+.list-pages a{
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.link__big-letter{
+	font-size: 48px;
+}
+.list-pages a:hover{
+	color: #168500;
+}
+.telegram{
+	position: relative;
+	top: 3px;
+	margin-left: 4px;
+}
+.telegram img{
+	width: 20px;
+}
+.decide{
+	position: relative;
+	top: 43px;
+	margin-left: 7px;
+}
+.decide img{
+	width: 100px;
+}
+.back{
+	font-size: 30px;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color: #fec459;
+}
+
+@media(max-width: 1600px){
+	.list-pages, .about-me{
+		margin-left: 0;
+	}
+	.page{
+		background-position: top left;
+	}
+	.back{
+		left: auto;
+		right: 25px;
+	}
+}
+@media(max-width: 992px){
+	.page{
+		padding: 0 20px;
+		padding-bottom: 27px;
+		/*min-height: 1000px;*/
+	}
+	.title{
+		font-size: 30px;
+	    letter-spacing: 2px;
+	    padding-top: 27px;
+	}
+	.title__big-letter{
+		font-size: 45px;
+	}
+	.about-me p{
+		font-size: 16px;
+		line-height: 1.3;
+		margin-top: 5px
+	}
+	.list-pages ul{
+		margin-top: 5px;
+	}
+	.list-pages a{
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	.link__big-letter{
+		font-size: 24px;
+	}
+	.telegram{
+		top: 6px;
+		margin-left: 2px;
+	}
+	.telegram img{
+		width: 20px;
+	}
+	.decide{
+		top: 21px;
+		margin-left: 3px;
+	}
+	.decide img{
+		width: 50px;
+	}
+	.back{
+		font-size: 20px;
+		top: 12px;
+		right: 12px;
+	}
+}

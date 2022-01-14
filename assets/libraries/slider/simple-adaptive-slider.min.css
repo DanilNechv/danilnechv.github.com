@@ -1,0 +1,1 @@
+.slider__wrapper{position:relative;overflow:hidden}.slider__items{display:flex;transition:transform .5s ease}.slider__item{flex:0 0 100%;max-width:100%;position:relative}.slider__indicators{position:absolute;left:0;right:0;bottom:10px;display:flex;justify-content:center;padding-left:0;margin:0 15%;list-style:none;user-select:none}
